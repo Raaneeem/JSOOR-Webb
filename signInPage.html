@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/icon.png">
+    <title>Sign In Page</title>
+    <!-- font awesome 6 (icons) -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap 5 -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" > -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/signInPage.css">
+    
+</head>
+<body>  
+        <div class="signUp d-flex justify-content-between ">
+            <div class="circle">
+                  <img src="Images/signUp.jpg" alt="">
+                  <div class="take text-center m-4">
+                    <h1>Continue</h1>
+                    <p class="adventure">Your adventure.</p>
+                    <p class="signIn"> Sign In.</p>
+                  </div>
+            </div>
+            <div class="form">
+                <h3 class="signEmail text-center">Log In</h3>
+                <form class="formSection">
+                        <div class="mt-5">
+                          <label for="exampleInputEmail1" class="form-label">Email</label>
+                          <input type="email" class="form-control">
+                        </div>
+                        <div class="my-4">
+                          <label class="form-label">Password</label>
+                          <input type="password" class="form-control">
+                        </div>
+                        <div class="para">
+                            <a href="#" id="forgetPass">Forgot Password?.</a>
+                        </div>
+                        <div class="slide-item" id="slide-item">
+                                <div class="content">
+                                    <form class="formSection">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="Images/pass.png" alt="">
+                                        </div>
+                                        <h5>Forgot Password?</h5>
+                                        <p class="para text-center">You can reset your password here.</p>
+                                            <div class="mb-3 d-flex">
+                                              <!-- <label for="exampleInputEmail1" class="form-label">Email</label> -->
+                                              <!-- <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="signup__input-icon" preserveAspectRatio="none" aria-hidden="true">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M2 6C2 4.89543 2.89543 4 4 4H20C21.1046 4 22 4.89543 22 6V18C22 19.1046 21.1046 20 20 20H4C2.89543 20 2 19.1046 2 18V6ZM18.4142 6H5.5858L12 11.2115L18.4142 6ZM4 7.28848V18H20V7.28844L12.6306 13.2761C12.2632 13.5746 11.7368 13.5746 11.3694 13.2761L4 7.28848Z" fill="#9391A6"></path>
+                                            </svg> -->
+                                              <input type="email" class="form-control" placeholder="email address">
+                                            </div>
+                                    </form>
+                                    <button type="button" class="btn create">Send my Password</button>                  
+                                    <span class="close">&times;</span>
+                                </div>
+                        </div>
+                        <a href="#" class="btn create my-3">Log In</a>
+                        <p class="text-center"> OR Continue</p>
+                        <div class="links d-flex justify-content-center">
+                          <a href="https://accounts.google.com" class="btn"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 48 48">
+                              <path fill="#fbc02d" d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12	s5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24s8.955,20,20,20	s20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z"></path><path fill="#e53935" d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039	l5.657-5.657C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z"></path><path fill="#4caf50" d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36	c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z"></path><path fill="#1565c0" d="M43.611,20.083L43.595,20L42,20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571	c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z"></path>
+                              </svg> Sign Up with Google</a>
+                          <a href="https://www.facebook.com/" class="btn"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 48 48">
+                              <path fill="#3F51B5" d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5V37z"></path><path fill="#FFF" d="M34.368,25H31v13h-5V25h-3v-4h3v-2.41c0.002-3.508,1.459-5.59,5.592-5.59H35v4h-2.287C31.104,17,31,17.6,31,18.723V21h4L34.368,25z"></path>
+                              </svg> Sign Up with Facebook</a>
+                        </div>
+                        <p class="para my-5 text-center">Need an account? <a href="signUpPage.html">Sign Up</a></p>
+                </form>
+            </div>
+        </div>
+      <!-- bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="Js/signIn.js"></script>
+</body>
+</html>
+

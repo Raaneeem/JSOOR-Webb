@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="Images/icon.png">
+        <title>New Project</title>
+        <!-- font awesome 6 (icons) -->
+        <link rel="stylesheet" href="css/all.min.css">
+        <!-- bootstrap 5 -->
+        <!-- <link rel="stylesheet" href="css/bootstrap.min.css" > -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!-- custom css -->
+        <link rel="stylesheet" href="css/addNewProjectPart1.css">
+        
+    </head>
+<body>
+    <!-- Start Navbar section   -->
+    <div class="navBarSection" id="navBar"></div>
+    <!-- End Navbar section   -->
+    <!--- Start Dream Section --->
+    <div class="ImagescreateDreamJSOOR">
+        <div>
+            <img class="Ellipse" src="Images/Ellipse 54.png">
+            <img class="path" src="Images/Path 13.png">
+            <img class="town" src="Images/image 19.png">
+            <img class="roomType" src="Images/roomType.png">
+            <img class="JSOORImage" src="Images/JSOOR.png">
+        </div>
+        <div class="paragraphscreateDreamJSOOR container">
+            <h3>PREVIEW PROJECT</h3>
+            <h1>Create Your Dream With</h1>
+            <h1 class="JSOORWORD mb-4">JSOOR</h1>
+            <p>Please make sure that you have filled in the blanks</p>
+            <p class="mb-5">with the right information.</p>
+            <p class="ProjectInformation">Project Information</p>
+            <p class="projectName" id="nameProject" ></p>
+            <p class="Target" id="targetOut"></p>
+            <p class="Category" id="categoryOut"></p>
+        </div>
+        <div class="formPart container">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label" >Project Name</label>
+                  <input type="email" class="form-control" id="projectName" aria-describedby="emailHelp" placeholder="Ex : Inelegant Watch">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Abstract</label>
+                  <input type="text" class="form-control" placeholder="Ex : The Inelegant Watch is a fascinating timepiece that defies conventional notions of elegance and beauty">
+                </div>
+                <div class="d-flex ">
+                    <div class="mb-3">
+                        <label class="form-label" >Category</label>
+                        <select class="form-select" id="categoryIn" aria-label="Default select example"> 
+                            <option hidden selected value="">Choose Category</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Target</label>
+                        <input type="text" class="form-control TargetForm" id="targetIn" placeholder="Ex : $ 2000">
+                      </div>
+                      <div class="mb-3">
+                        <label class="form-label" >Location</label>
+                        <select class="form-select" aria-label="Default select example" >
+                            <option hidden selected value="">Choose your Location</option>
+                            <option value="1">Jenin</option>
+                            <option value="2">Ramallah</option>
+                            <option value="3">Nablus</option>
+                          </select>
+                      </div>
+                </div>
+                <a href="addNewProjectPart2.html" class="btn nextbtn" id="nextBtn">Next</a>
+              </form>
+        </div>
+    </div>
+    <!--- End Dream Section --->
+
+
+    <!-- Start footer section  -->
+    <div class="footerSection" id="footer"></div>
+        
+    <!-- End footer section   -->
+    <!-- bootstrap 5 -->
+    <!-- <script src="js/bootstrap.bundle.min.js"></script>   -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="Js/navBar.js"></script>
+    <script src="Js/footer.js"></script>    
+    <script src="Js/addNewProject1.js"></script>
+</body>
+</html>

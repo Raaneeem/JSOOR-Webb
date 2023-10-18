@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="Images/icon.png">
+        <title>New Project</title>
+        <!-- font awesome 6 (icons) -->
+        <link rel="stylesheet" href="css/all.min.css">
+        <!-- bootstrap 5 -->
+        <!-- <link rel="stylesheet" href="css/bootstrap.min.css" > -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!-- custom css -->
+        <link rel="stylesheet" href="css/addNewProjectPart2.css">
+        
+    </head>
+<body>
+    <!-- Start Navbar section   -->
+    <div class="navBarSection" id="navBar"></div>
+    <!-- End Navbar section   -->
+    <!--- Start Dream Section --->
+    <div class="ImagescreateDreamJSOOR">
+        <div>
+            <img class="Ellipse" src="Images/Ellipse 54.png">
+            <img class="path" src="Images/Path 13.png">
+            <img class="town" src="Images/image 19.png">
+            <img class="roomType" src="Images/roomType.png">
+            <img class="JSOORImage" src="Images/JSOOR.png">
+        </div>
+        <div class="paragraphscreateDreamJSOOR container">
+            <h3>PREVIEW PROJECT</h3>
+            <h1>A few things left</h1>
+            <p>Dont panic! JSOOR will save you.</p>
+            <p class="projectName" id="nameProject"></p>
+            <p class="Target" id="targetOut"></p>
+            <p class="Category" id="categoryOut"></p>
+        </div>
+        <div>
+            <form>
+                <div class="d-flex uploadFiles">
+                    <div>
+                        <div class="d-flex ">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Start Date</label>
+                                <input type="date" class="form-control datesPart "  aria-describedby="emailHelp">
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">End Date</label>
+                                <input type="date" class="form-control datesPart " >
+                              </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Upload your Logo</label>
+                            <div class="form-text">Drag or choose your Logo to upload</div>
+                            <input type="file" class="form-control LogoPhoto" >
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Upload your Photos & Videos</label>
+                            <div class="form-text">Drag or choose photo or video to upload</div>
+                            <input type="file" class="form-control LogoPhoto" >
+                        </div>                        
+
+                    </div>
+                    <div>
+                        <label for="exampleInputPassword1" class="form-label">Upload Documentation</label>
+                        <input type="file" class="form-control uploadDoc" >
+                    </div>
+                </div>
+                <a href="addNewProjectPart2.html" class="btn publishProject" >Publish Project</a>
+
+            </form>
+        </div>
+    </div>
+    <!--- End Dream Section --->
+
+
+    <!-- Start footer section  -->
+    <div class="footerSection" id="footer"></div>
+        
+    <!-- End footer section   -->
+    <!-- bootstrap 5 -->
+    <!-- <script src="js/bootstrap.bundle.min.js"></script>   -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="Js/navBar.js"></script>
+    <script src="Js/footer.js"></script>
+    <script src="Js/addNewProject2.js"></script>
+
+</body>
+</html>
