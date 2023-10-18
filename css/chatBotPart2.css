@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Start navbar section */
+body{
+    font-family: Poppins;
+}
+.navbar{
+    display: block;
+}
+.nav-item a {
+    font-weight: 550;
+    margin-right: 1rem;
+    color: #7b7676;
+}
+.nav-item :hover{
+    color: #009688;
+}
+.word-JSOORLogo-in-navbar{
+    color: #009688;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.wordJSOORInAbout{
+    background-image: linear-gradient(to right, #009688, #B1AAE8);
+    -webkit-background-clip: text; /* For compatibility with WebKit browsers */
+    color: transparent;
+}
+.userImg{
+    width: 2rem;
+    height: 2rem;
+}
+.list-item-for-websites{    
+    width: 30px;
+    height: 30px;
+    border: 2px solid ;
+    border-color: #009688;
+    border-radius: 50%;
+    list-style: none;
+}
+.list-item-for-websites a{
+    text-decoration: none;
+    color: #009688;
+    padding: 5px;
+    font-weight: 500;
+
+}
+.list-item-for-websites a:hover{
+    color: #B1AAE8;
+}
+/* End navbar section */
+.rr{
+    height: 100vh;
+    background-image: url(https://dribbble.com/shots/16873312-3D-Crypto-Robot-Animation);
+}
+.rr img{
+    width: 25rem;
+    height: 30rem;
+}
+
+/* Start footer section */
+.footerSection{
+    background-color: #f3f3fc;
+}
+.paragraphsFooterSection{
+    color: #B1AAE8;
+}
+.footerSection h6{
+    color: #009688;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.footerSection li{
+    list-style: none;
+    margin: 10px;
+
+}
+.footerSection a{
+    text-decoration: none;
+    color: #B1AAE8;
+}
+.footerSection svg{
+    background-color: #cfc9fa;
+    padding: 0.2rem;
+}
+/* End footer section */

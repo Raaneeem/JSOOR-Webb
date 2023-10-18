@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Start About Us section */
+body{
+    font-family: Poppins;
+    color: #B1AAE8;
+}
+
+.image0AboutUsSection{
+    width: 40rem;
+    height: 40rem;
+    position: relative;
+    display: inline-block;
+}
+.image1AboutUsSection{
+    width: 40rem;
+    height: 40rem;
+    position: relative;
+    display: inline-block;
+}
+.Team{
+    position: absolute;
+    top: -25%; /* Adjust the vertical position */
+    left: 50%; /* Adjust the horizontal position */
+    transform: translate(-50%, 20%); /* Center the text */
+}
+.aboutUsSection h1 {
+    font-weight: 800;
+    font-size: 4rem;
+    background-image: linear-gradient(to right, #009688, #B1AAE8);
+    -webkit-background-clip: text; /* For compatibility with WebKit browsers */
+    color: transparent;
+}
+.aboutUsSection .carousel-item img{
+    width: 12rem;
+
+}
+.aboutUsSection .carousel-item li{
+    list-style:none;
+}
+.aboutUsSection .carousel-item a{
+    text-decoration: none;
+    background-color: #cfc9fa;
+    margin-left: 0.5rem;
+    padding: 0.2rem;
+}
+.aboutUsSection .carousel-item a:hover{
+    color:#B1AAE8;
+}
+.aboutUsSection .carousel-indicators .s {
+    background-color:#009688;
+
+}
+.aboutUsSection .arrow {
+    background-color: #009688;
+    border-radius: 30%;
+}
+/* Start About Us section */

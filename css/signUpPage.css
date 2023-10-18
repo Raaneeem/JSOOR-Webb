@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Start navbar section */
+body{
+    font-family: Poppins;    
+}
+
+.signUp{
+    margin-top: 1rem;
+    margin-left: 7rem;
+    width: 65rem;
+    height: 35rem;
+    background-color: rgba(195, 188, 241, 0.192);
+    border-radius: 1rem;
+}
+/* .circle img{
+    width: 30rem;
+    height: 35rem;
+    border-radius: 1rem;
+    display: inline-block;
+    position: relative; 
+} */
+
+.circle .take h1{
+    position: absolute;
+    font-size: 3rem;
+    top: 8rem;
+    font-weight: 800;
+    color: #7167b8;
+}
+
+.circle .take .privileged{
+    position: absolute;
+    font-size: 1rem;
+    top: 12rem;
+    left: 11rem;
+    font-weight: 800;
+    color: #7167b8;
+}
+.circle .take .member{
+    position: absolute;
+    font-size: 1.5rem;
+    top: 15rem;
+    left: 15rem;
+    font-weight: 800;
+    color: #7167b8;
+}
+
+.form{
+    color: #7167b8;
+    width: 40rem;
+}
+/* .inv-par{
+    margin-top: 6rem;
+    font-weight: 800;
+    font-size: 3rem;
+}
+.inv-par2{
+    font-weight: 800;
+} */
+.form img{
+    width: 40rem;
+    height: 35rem;
+    border-radius: 1rem;
+}
+.formSection{
+    position: absolute;
+    font-size: 0.7rem;
+    top: 20rem;
+    left: 15rem;
+}
+
+.para{
+    color: #7b7676;
+}
+.para a{
+    color: #7167b8;
+}
+.create{
+    color: #fff;
+    background-color: #7167b8;
+    border-color: #B1AAE8;
+    font-size: 0.8rem;
+    width: 10rem;
+    display: block;
+    margin: auto;
+}
+.create:hover{
+    color: #fff;
+}

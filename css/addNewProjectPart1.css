@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Start navbar section */
+body{
+    font-family: Poppins;
+    overflow-x: hidden;
+}
+.navbar{
+    display: block;
+}
+.nav-item a {
+    font-weight: 550;
+    margin-right: 1rem;
+    color: #7b7676;
+}
+.nav-item :hover{
+    color: #009688;
+}
+.word-JSOORLogo-in-navbar{
+    color: #009688;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.wordJSOORInAbout{
+    background-image: linear-gradient(to right, #009688, #B1AAE8);
+    -webkit-background-clip: text; /* For compatibility with WebKit browsers */
+    color: transparent;
+}
+.userImg{
+    width: 2rem;
+    height: 2rem;
+}
+.list-item-for-websites{    
+    width: 30px;
+    height: 30px;
+    border: 2px solid ;
+    border-color: #009688;
+    border-radius: 50%;
+    list-style: none;
+}
+.list-item-for-websites a{
+    text-decoration: none;
+    color: #009688;
+    padding: 5px;
+    font-weight: 500;
+
+}
+.list-item-for-websites a:hover{
+    color: #B1AAE8;
+}
+/* End navbar section */
+
+/* Start Dream Section */
+.ImagescreateDreamJSOOR img {
+    position: relative;
+    display: inline-block;
+}
+.ImagescreateDreamJSOOR .Ellipse{
+    width: 41rem;
+    height: 45rem;
+    margin-left: 37.9rem;
+    margin-top: -7rem;
+}
+.ImagescreateDreamJSOOR .path{
+    margin-top: -58rem;
+    width: 78.5rem;
+    height: 20rem;
+}
+.ImagescreateDreamJSOOR .town{
+    margin-top: -50rem;
+    margin-left: 55rem;
+    width: 15rem;
+    height: 20rem;
+}
+.ImagescreateDreamJSOOR .roomType{
+    position: absolute;
+    margin-top: -20rem;
+    margin-left: -14rem;
+    width: 13rem;
+    height: 10rem;
+    border-radius: 1.2rem;
+}
+.ImagescreateDreamJSOOR .JSOORImage{
+    margin-top: -15rem;
+    margin-left: 45rem;
+    width: 30rem;
+    height: 6rem;   
+}
+.paragraphscreateDreamJSOOR {
+    position: absolute;
+    top: 30%; /* Adjust the vertical position */
+    left: 40%; /* Adjust the horizontal position */
+    transform: translate(-50%, 20%); /* Center the text */
+    width: 50rem;
+}
+.paragraphscreateDreamJSOOR h1{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+h3{
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: end;
+    margin-top: -3rem;
+    margin-right: -8rem;
+}
+.JSOORWORD{
+    background-image: linear-gradient(to right, #59aca4, #cdc8ef);
+    -webkit-background-clip: text; /* For compatibility with WebKit browsers */
+    color: transparent;
+}
+.paragraphscreateDreamJSOOR p{
+    font-size: 0.8rem;
+}
+.paragraphscreateDreamJSOOR .ProjectInformation{
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+.paragraphscreateDreamJSOOR .projectName{
+    position: absolute;
+    top: 15rem; /* Adjust the vertical position */
+    left: 75rem; /* Adjust the horizontal position */
+    transform: translate(-50%, 20%); /* Center the text */
+    width: 50rem; 
+    font-size: 1rem;
+}
+.paragraphscreateDreamJSOOR .Target{
+    position: absolute;
+    top: 20.5rem; /* Adjust the vertical position */
+    left: 77rem; /* Adjust the horizontal position */
+    transform: translate(-50%, 20%); /* Center the text */
+    width: 50rem; 
+    font-size: 1rem;
+}
+.paragraphscreateDreamJSOOR .Category{
+    position: absolute;
+    top: 20.5rem; /* Adjust the vertical position */
+    left: 82rem; /* Adjust the horizontal position */
+    transform: translate(-50%, 20%); /* Center the text */
+    width: 50rem; 
+    font-size: 1rem;
+}
+.formPart{
+    position: absolute;
+    top: 80%; /* Adjust the vertical position */
+    left: 40%; /* Adjust the horizontal position */
+    transform: translate(-50%, 20%); /* Center the text */
+    width: 50rem;   
+}
+.formPart .form-label{
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+.formPart .form-control{
+    font-size: 0.7rem;
+    width: 40rem;
+}
+.formPart .form-select{
+    font-size: 0.7rem;
+    width: 11rem;   
+    margin-right: 2rem;
+}
+.formPart .TargetForm{
+    font-size: 0.7rem;
+    width: 11rem;   
+    margin-right: 2rem;   
+}
+.formPart .nextbtn{
+    color: #fff;
+    background-color: #009688;
+    width: 7rem;
+}
+/* End Dream Section */
+
+/* Start footer section */
+.footerSection{
+    background-color: #f3f3fc;
+}
+.paragraphsFooterSection{
+    color: #B1AAE8;
+}
+.footerSection h6{
+    color: #009688;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.footerSection li{
+    list-style: none;
+    margin: 10px;
+
+}
+.footerSection a{
+    text-decoration: none;
+    color: #B1AAE8;
+}
+.footerSection svg{
+    background-color: #cfc9fa;
+    padding: 0.2rem;
+}
+/* End footer section */

@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Start navbar section */
+body{
+    font-family: Poppins;
+    overflow-x: hidden;
+}
+.navbar{
+    display: block;
+}
+.nav-item a {
+    font-weight: 550;
+    margin-right: 1rem;
+    color: #7b7676;
+}
+.nav-item :hover{
+    color: #009688;
+}
+.word-JSOORLogo-in-navbar{
+    color: #009688;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.wordJSOORInAbout{
+    background-image: linear-gradient(to right, #009688, #B1AAE8);
+    -webkit-background-clip: text; /* For compatibility with WebKit browsers */
+    color: transparent;
+}
+.userImg{
+    width: 2rem;
+    height: 2rem;
+}
+.list-item-for-websites{    
+    width: 30px;
+    height: 30px;
+    border: 2px solid ;
+    border-color: #009688;
+    border-radius: 50%;
+    list-style: none;
+}
+.list-item-for-websites a{
+    text-decoration: none;
+    color: #009688;
+    padding: 5px;
+    font-weight: 500;
+
+}
+.list-item-for-websites a:hover{
+    color: #B1AAE8;
+}
+/* End navbar section */
+
+/* Satrt payment section */
+.payment{
+    align-items: center;
+}
+.payment .img0 {
+    position: relative;
+    display: inline-block;
+    width: 40rem;
+    height: 100vh;
+    top: 7rem;
+    left: -10%;
+}
+.payment .img1 {
+    position: relative;
+    display: inline-block;
+    width: 40rem;
+    height: 100vh;
+    top: -5rem;
+}
+.payment .img2{
+    position: absolute;
+    top: 10%; /* Adjust the vertical position */
+    left: 50%; /* Adjust the horizontal position */
+    transform: translate(-50%, 20%); /* Center the text */ 
+    width: 80rem;
+    height: 34.5rem;
+}
+
+.paraPayment h1{
+    position:absolute;
+    top: 20%; /* Adjust the vertical position */
+    left: 50%; /* Adjust the horizontal position */
+    transform: translate(-50%, 20%); /* Center the text */ 
+    font-weight: 800;
+    font-size: 3rem;
+    margin: 1rem; 
+}
+.paraPayment p{
+    position:absolute;
+    top: 33%; /* Adjust the vertical position */
+    left: 50%; /* Adjust the horizontal position */
+    transform: translate(-50%, 20%); /* Center the text */ 
+    margin: 1rem; 
+    font-size: 0.8rem ;
+}
+.cards{
+    position:absolute;
+    top: 45%; /* Adjust the vertical position */
+    left: 50%; /* Adjust the horizontal position */
+    transform: translate(-50%, 20%); /* Center the text */ 
+    text-align: center;  
+}
+.card{
+    margin: 1rem;
+    height: 20rem;
+    width: 12rem;
+    border-radius: 1rem; 
+
+}
+.card2{
+    top: -5%;
+}
+.card-body img{
+    width: 3rem;
+    height: 3rem;
+}
+.card-body h3{
+    color: #009688;
+}
+.card-body p{
+    margin-top: 1.7rem;
+    left: 5rem;
+    width: 11rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    
+}
+.card-body li{
+    text-align: start;
+    margin-top: 1rem;
+    font-size: 0.6rem;
+    list-style:'\2713';
+    transform: translate(-20%, 20%);
+    width: 10rem;
+}
+.card-body a{
+    font-size: 0.6rem;
+    background-color: #009688;
+    color: white;
+    border-radius: 1rem;
+}
+.card-body .a1{
+    margin-top: 3rem;
+}
+.card-body .a2{
+    margin-top: 2rem;
+}
+
+/* End payment section */
+
+/* Start footer section */
+.footerSection{
+    background-color: #f3f3fc;
+}
+.paragraphsFooterSection{
+    color: #B1AAE8;
+}
+.footerSection h6{
+    color: #009688;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.footerSection li{
+    list-style: none;
+    margin: 10px;
+
+}
+.footerSection a{
+    text-decoration: none;
+    color: #B1AAE8;
+}
+.footerSection svg{
+    background-color: #cfc9fa;
+    padding: 0.2rem;
+}
+/* End footer section */

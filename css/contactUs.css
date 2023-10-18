@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Start contactUs section */
+body{
+    font-family: Poppins;
+    text-align: center;
+
+    color: #B1AAE8;
+}
+.contactUsSection{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.wordContactUs{
+    color: #009688;
+    font-weight: 550;
+}
+.paragraphContactUs{
+    margin-bottom: 4rem;
+}
+.formSection{
+    color: #009688;
+    font-weight: bold;
+    text-align: start;
+}
+.form-control{
+    width: 18rem;
+    margin-left: 1rem;
+    font-size: 14px;
+    padding: 10px;
+    background-color: #f3f3fc;
+    border-color: transparent;
+}
+.form-control-message{
+    width: 38rem;
+    height: 8rem;
+}
+.buttonForm{
+    background-color: #009688;
+    color: #ffff;
+}
+.iconsSection li{
+    list-style: none;
+}
+.iconsSection a{
+    text-decoration: none;
+    background-color: #f3f3fc;
+    margin-left: 1rem;
+    padding: 0.1rem;
+
+}
